@@ -1,0 +1,51 @@
+#main {
+  background-color: #eee;
+  font-family: monospace, sans-serif;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 25px 0;
+  text-align: center;
+  width: 95%; }
+  #main #img-div {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    width: 95%; }
+    #main #img-div img {
+      border-radius: 5px;
+      display: block;
+      height: auto;
+      margin: auto;
+      max-width: 100%; }
+  #main #tribute-info {
+    margin: auto;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 50%; }
+    #main #tribute-info li {
+      font-family: sans-serif;
+      list-style: none; }
+      #main #tribute-info li strong {
+        font-family: monospace;
+        font-size: 1.4em; }
+  #main #quote-info {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 80%; }
+    #main #quote-info #quote {
+      font-size: 1.5em; }
+    #main #quote-info #cite {
+      font-size: 1.25em; }
+      #main #quote-info #cite::after {
+        content: " \2014"; }
+  #main #tribute {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 22px; }
+
+/*# sourceMappingURL=style.css.map */
