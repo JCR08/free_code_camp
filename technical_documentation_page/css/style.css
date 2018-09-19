@@ -1,3 +1,29 @@
-
+body {
+  font-family: sans-serif; }
+  body nav {
+    border-right: 5px solid #999;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px; }
+    body nav h2 {
+      padding-left: 25px; }
+    body nav a {
+      border-top: 1px solid #999;
+      color: black;
+      padding: 10px 25px;
+      text-decoration: none; }
+  body main {
+    margin-left: 325px;
+    margin-top: 50px; }
+    body main section article {
+      margin-left: 25px; }
+      body main section article pre {
+        background-color: #eee;
+        line-height: 2;
+        width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
