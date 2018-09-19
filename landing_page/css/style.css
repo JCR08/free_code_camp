@@ -96,14 +96,14 @@ body {
         margin-bottom: 5px; }
       body div.container section#features div.grid div.description p {
         margin-top: 5px; }
-    body div.container section#video {
+    body div.container section#how-it-works {
       justify-content: center;
       display: flex;
       margin: 50px; }
       @media screen and (max-width: 800px) {
-        body div.container section#video {
+        body div.container section#how-it-works {
           margin: 50px 0; } }
-      body div.container section#video iframe {
+      body div.container section#how-it-works iframe {
         max-width: 560px;
         width: 100%; }
     body div.container section#pricing {
